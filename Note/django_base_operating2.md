@@ -129,6 +129,7 @@ b.heroinfo_set.all()
 
 ## 看完了  
 - [返回Django主页](https://github.com/KissMyLady/Django)  
-- [Django-admin管理](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating3.md)  
+- [上一页- Django初始化](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating.md)  
+- [下一页- Django-admin管理](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating3.md)  
 
 
