@@ -65,16 +65,16 @@ django-admin startproject todat_new
 python manage.py startapp booktest  
 ```
 
-## 3、修改下setting.py文件  
+### 3、修改下setting.py文件  
 在INSTALLED_APPS列表中, 加入 'booktest', (注册app项目)  
 
-## 4、启动Django  
+### 4、启动Django  
 ```Linux
 python manger.oy runserver
 ```
 默认IP: 127.0.0.1, 端口8000  
 
-## 5、观看成果   
+### 5、观看成果   
 这时敲入网址, 就可以直接在浏览器上看到效果, 辛苦了, 给自己鼓鼓掌!    
 在浏览器输入网址:  
 127.0.0.1:8000  
