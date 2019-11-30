@@ -1,8 +1,9 @@
 Django框架 
 =====
 
-## :computer: Django基本操作  
-- [Django初阶-如何快速搭建一个网站](https://github.com/KissMyLady/Django/blob/master/Note/jango_base_operating.md)  
+## :computer:Django初阶1--快速搭建一个网站框架
+- [Django初始化](https://github.com/KissMyLady/Django/blob/master/Note/jango_base_operating.md)  
+- [Django模块介绍]()   
 
 ## :pencil2: Model逐渐及其操作  
 
