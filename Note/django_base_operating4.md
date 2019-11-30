@@ -133,8 +133,10 @@ for循环<br>
 
 ```
 
-完成
-===
 
-
-## 完整代码  
+## 看完了  
+- [返回Django主页](https://github.com/KissMyLady/Django)  
+- [Django-初始化](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating.md)  
+- [Django-M模块介绍](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating2.md)   
+- [Django-admin管理](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating3.md)
+- [Django-完整流程](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating5.md)
