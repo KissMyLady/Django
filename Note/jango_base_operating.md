@@ -3,12 +3,9 @@ Django初始化
 
 
 ## 预览图
-1、登录admin网页效果  
-![]()  
-2、登录自建网页效果
-![]()  
-3、查看详情页网页效果  
-![]()  
+登录自建网页效果
+![123-1](https://github.com/KissMyLady/Django/blob/master/Img/123-1.jpg)  
+
 
 ## 说 明  
 > Django没有你想象的那么难  
