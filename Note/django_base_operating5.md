@@ -13,11 +13,11 @@ Django基础完整流程图
 ## admin.py
 ![3](https://github.com/KissMyLady/Django/blob/master/Img/base_admin.jpg) 
 
-## mpdels.py
+## models.py
 ![4](https://github.com/KissMyLady/Django/blob/master/Img/base_models.jpg) 
 
 ## urls.py
 ![5](https://github.com/KissMyLady/Django/blob/master/Img/base_urls2.jpg)  
 
 ## views.py
-![6](https://github.com/KissMyLady/Django/blob/master/base_views2.jpg)  
+![6](https://github.com/KissMyLady/Django/blob/master/Img/base_views2.jpg)  
