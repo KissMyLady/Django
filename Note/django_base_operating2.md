@@ -1,4 +1,4 @@
-Django模块介绍  
+Django-M模块介绍  
 ====
 
 不需要写具体sql语句的ORM框架  
