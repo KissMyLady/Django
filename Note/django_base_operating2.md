@@ -127,6 +127,8 @@ b.heroinfo_set.all()
 
   ```
 
-
+## 看完了  
+- [返回Django主页](https://github.com/KissMyLady/Django)  
+- [Django-admin管理](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating3.md)  
 
 
