@@ -3,7 +3,8 @@ Django框架
 
 ## :computer:Django初阶1--快速搭建一个网站框架
 - [Django初始化](https://github.com/KissMyLady/Django/blob/master/Note/jango_base_operating.md)  
-- [Django模块介绍]()   
+- [Django-M模块介绍](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating2.md)   
+- [Django-admin管理](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating3.md)
 
 ## :pencil2: Model逐渐及其操作  
 
