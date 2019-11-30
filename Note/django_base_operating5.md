@@ -25,3 +25,11 @@ Django基础完整流程图
 
 ## views.py
 ![6](https://github.com/KissMyLady/Django/blob/master/Img/base_views2.jpg)  
+
+
+## 看完了  
+- [Django主页](https://github.com/KissMyLady/Django)  
+- [Django-初始化](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating.md)  
+- [Django-M模块介绍](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating2.md)   
+- [Django-admin管理](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating3.md)
+- [Django-视图, 路由, 视图](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating4.md)  
