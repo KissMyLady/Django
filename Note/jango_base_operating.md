@@ -78,7 +78,7 @@ python manger.oy runserver
 这时敲入网址, 就可以直接在浏览器上看到效果, 辛苦了, 给自己鼓鼓掌!    
 在浏览器输入网址:  
 127.0.0.1:8000  
-![]()   
+![123-2](https://github.com/KissMyLady/Django/blob/master/Img/123-2.jpg)   
 
 
 
