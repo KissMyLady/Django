@@ -1,7 +1,7 @@
 Django框架 
 =====
 
-## :computer:Django初阶1--快速搭建一个网站框架
+## :computer:Django初阶--快速搭建一个网站框架
 - [Django-初始化](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating.md)  
 - [Django-M模块介绍](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating2.md)   
 - [Django-admin管理](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating3.md)
@@ -9,18 +9,19 @@ Django框架
 - [Django-完整流程](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating5.md)
 
 ## :pencil2: Model逐渐及其操作  
-
+敬请期待
 
 ## :floppy_disk: 登录案例  
-
+敬请期待
 
 ## :wrench:  cookie和session  
-
+敬请期待
 
 ## :bulb: templates  
-
+敬请期待
 
 ## :watermelon: Django功能  
+敬请期待
 
 ## 其他链接  
 - [基础网络编程](https://github.com/KissMyLady/Web-of-Python)  
