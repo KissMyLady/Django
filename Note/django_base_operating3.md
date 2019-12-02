@@ -83,4 +83,6 @@ class HeroInfo(models.Model):
 
 ## 看完了  
 - [返回Django主页](https://github.com/KissMyLady/Django)  
-
+- [Django-M模块介绍](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating2.md)   
+- [Django-视图, 路由, 视图](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating4.md)  
+- [Django-完整流程](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating5.md)
