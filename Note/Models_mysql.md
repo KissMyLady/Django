@@ -31,12 +31,12 @@ pymysql.install_as_MySQLdb()
 3、打开报错的文件 operations.py，146行  
 * 把 decode 改成 encode
 
-## 附加-开启mysql实时日志功能  
+## 附加--开启mysql实时日志功能  
 1、打开mysql的配置文件，去除68,69行的注释，然后保存    
 2、重启mysql服务， `sudo service mysql restart`  
 3、实时查看mysql的日志，`sudo  tail  -f  /var/log/mysql/mysql.log`  
 
-## 说  明  
+## 说  明:  
 此时，就已经开启了用mysql作为数据库的Django配置  
 现在打开Django看看，是否能够启动成功  
 ```linux
