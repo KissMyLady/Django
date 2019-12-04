@@ -9,9 +9,9 @@ Django框架
 - [Django-完整流程](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating5.md)
 
 ## :pencil2: Model 组建及其操作  
-- [Models-M深入介绍]() 
-- [Models-数据库设置]()  
-- [Models-Manager管理类]()  
+- [Models-M深入介绍](https://github.com/KissMyLady/Django/blob/master/Note/Models_deep_sty.md) 
+- [Models-数据库设置](https://github.com/KissMyLady/Django/blob/master/Note/Models_mysql.md)  
+- [Models-Manager管理类](https://github.com/KissMyLady/Django/blob/master/Note/Models_Manager.md)  
 
 ## :floppy_disk: 登录案例  
 敬请期待
