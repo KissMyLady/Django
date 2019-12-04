@@ -8,12 +8,12 @@ Django框架
 - [Django-视图, 路由, 视图](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating4.md)  
 - [Django-完整流程](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating5.md)
 
-## :pencil2: Model 组建及其操作  
+## :pencil2: Model模块  
 - [Models-M深入介绍](https://github.com/KissMyLady/Django/blob/master/Note/Models_deep_sty.md) 
 - [Models-数据库设置](https://github.com/KissMyLady/Django/blob/master/Note/Models_mysql.md)  
 - [Models-Manager管理类](https://github.com/KissMyLady/Django/blob/master/Note/Models_Manager.md)  
 
-## :floppy_disk: 登录案例  
+## :floppy_disk: 登录实例  
 敬请期待
 
 ## :wrench:  cookie和session  
