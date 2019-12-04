@@ -38,5 +38,59 @@ Models-M深入介绍
 然后读者再根据Django提供的文档进行数据增删改查的修补工作   
 #### 最后，在这章末尾展示，如何达到这个最终状态的过程    
 
+## 实现代码  
+![Manager1](https://github.com/KissMyLady/Django/blob/master/Img/manager.jpg)  
+```Python
+from django.db import models
+# from booktest.models import BookInfo
+class BookInfoManager(models.Manager):
+    def all(self):
+        books = super().all()
+        books = books.filter(is_Delete=False)
+        return books
+
+    def create_book(self, b_title, b_pub_data):
+        model_class = self.models     # 解耦
+        book = model_class()
+        book.b_title = b_title
+        book.b_pub_data = b_pub_data
+        book.save()
+        return book
+
+
+class BookInfo(models.Model):
+    b_title    = models.CharField(max_length=20)
+    b_pub_date = models.DateField()
+    b_read     = models.IntegerField(default=0)
+    b_comm     = models.IntegerField(default=0)
+    is_Delete  = models.BooleanField(default=False)
+    objects = BookInfoManager()
+
+    def __str__(self):
+        return self.b_title
+
+    class Meat:                # 元选项
+        db_table = 'bookinfo'  # 制定模型对应的表名
+
+
+class HeroInfo(models.Model):
+    h_name     = models.CharField(max_length=20)
+    h_gender   = models.BooleanField(default=False)
+    h_comment  = models.CharField(max_length=200)
+    h_book     = models.ForeignKey('BookInfo', on_delete=models.CASCADE)
+    is_Delete  = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.h_name
+```
+## 接下来 
+- [上一页](https://github.com/KissMyLady/Django/blob/master/Note/Models_deep_sty.md)  
+- [Models-数据库设置](https://github.com/KissMyLady/Django/blob/master/Note/Models_mysql.md)  
+- [Models-Manager管理类](https://github.com/KissMyLady/Django/blob/master/Note/Models_Manager.md)  
+
+
+
+
+
 
 
