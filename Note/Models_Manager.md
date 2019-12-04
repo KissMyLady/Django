@@ -32,4 +32,8 @@ Models-Manager管理类
 ![7](https://github.com/KissMyLady/Django/blob/master/Img/m-7.jpg)  
 
 
+## 接下来  
+- [Django主页](https://github.com/KissMyLady/Django)  
+- [Models-M深入介绍](https://github.com/KissMyLady/Django/blob/master/Note/Models_deep_sty.md) 
+- [Models-数据库设置](https://github.com/KissMyLady/Django/blob/master/Note/Models_mysql.md)  
 
