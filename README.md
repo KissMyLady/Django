@@ -8,8 +8,10 @@ Django框架
 - [Django-视图, 路由, 视图](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating4.md)  
 - [Django-完整流程](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating5.md)
 
-## :pencil2: Model逐渐及其操作  
-敬请期待
+## :pencil2: Model 组建及其操作  
+- [Models-M深入介绍]() 
+- [Models-数据库设置]()  
+- [Models-Manager管理类]()  
 
 ## :floppy_disk: 登录案例  
 敬请期待
