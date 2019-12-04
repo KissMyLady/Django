@@ -11,25 +11,25 @@ Models-Manager管理类
 
 ## 管理器升级：
 ### 原代码  
-![1]()  
+![1](https://github.com/KissMyLady/Django/blob/master/Img/m-1.jpg)  
 
 ### 一阶段--原始  
-![2]()  
+![2](https://github.com/KissMyLady/Django/blob/master/Img/m-2.jpg)  
 
 ### 二阶段--指定义类属性   
-![3]()  
+![3](https://github.com/KissMyLady/Django/blob/master/Img/m-3.jpg)  
 
 ### 三阶段--自定义all方法    
-![4]()  
+![4](https://github.com/KissMyLady/Django/blob/master/Img/m-4.jpg)  
 
 ### 四阶段--BookInfo增添功能  
-![5]()
+![5](https://github.com/KissMyLady/Django/blob/master/Img/m-5.jpg)
 
 ### 五阶段--将功能封装入Manager  
-![6]()  
+![6](https://github.com/KissMyLady/Django/blob/master/Img/m-6.jpg)  
 
 ### 六阶段--解耦类名  
-![7]()  
+![7](https://github.com/KissMyLady/Django/blob/master/Img/m-7.jpg)  
 
 
 
