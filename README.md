@@ -1,6 +1,6 @@
 Django框架 
 =====
-
+[![HitCount](http://hits.dwyl.io/Kiss_My_Lady/Django.svg)](http://hits.dwyl.io/Kiss_My_Lady/Django)
 ## :computer:Django初阶--快速搭建一个网站框架
 - [Django-初始化](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating.md)  
 - [Django-M模块介绍](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating2.md)   
