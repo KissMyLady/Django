@@ -1,6 +1,6 @@
 Django框架 
 =====
-[![HitCount](http://hits.dwyl.io/Kiss_My_Lady/Django.svg)](http://hits.dwyl.io/Kiss_My_Lady/Django)
+
 ## :computer:Django初阶--快速搭建一个网站框架
 - [Django-初始化](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating.md)  
 - [Django-M模块介绍](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating2.md)   
@@ -39,7 +39,7 @@ Django框架
 在线排版工具： [Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)  
 
 技术支持： [CyC2018](https://github.com/CyC2018/Text-Typesetting)  
-
+[![HitCount](http://hits.dwyl.io/Kiss_My_Lady/Django.svg)](http://hits.dwyl.io/Kiss_My_Lady/Django)
 ### License  
 本仓库的内容是平时个人学习拙见与网络大佬文章细节拼接，这样，省去了打字的劳苦，也很感谢世界上为此默默奉献的人，同时，会尽量保证给出资料引用的地址，其余就是知识讲解了。在您引用此仓库的内容或进行修改时，请署名以相同方式共享，感谢。  
 
