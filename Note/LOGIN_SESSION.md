@@ -13,7 +13,7 @@ Cookies和Session讲解
 代码部分    
 ==== 
 ## Views.py
-'''Python
+```Python
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from booktest.models import BookInfo, HeroInfo
@@ -102,7 +102,6 @@ def get_session(request):
 # delete from django_session;
 # select * from django_session;
 
-''' 
 +----------------------------------+--------------------------------------------------------------------------------------------------+----------------------------+
 | session_key                      | session_data                                                                                     | expire_date                |
 +----------------------------------+--------------------------------------------------------------------------------------------------+----------------------------+
@@ -115,7 +114,7 @@ ODVlYzkyZTM5OGQzNTNmZWE2OTA1Y2RkMDIxNjc0MjMzNTJiZTIzNDp7InVzZXJuYW1lIjoicm9vdCIs
 base64 encode:  https://base64.supfree.net/
 
 85ec92e398d353fea6905cdd02167423352be234:{"username":"root","age":100}
-'''
+```
 
 ## template
 ### `login.html`
@@ -126,7 +125,6 @@ base64 encode:  https://base64.supfree.net/
     <input type="checkbox" name="remember">记住用户名<br/>
     <input type="submit"   value="登录">
 </form>
-
 ```
 
 ### `test_ajax.html`
@@ -218,3 +216,5 @@ base64 encode:  https://base64.supfree.net/
 </body>
 </html>
 ```
+
+
