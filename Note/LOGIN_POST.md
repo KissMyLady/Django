@@ -3,9 +3,8 @@
 
 ## 登录案例  
 请注意, 这里的教程是至上而下的学习; 就是说, 先看实际生产代码, 然后在学习底层逻辑    
-- [跳转--Ajax讲解]()    
-- [跳转--Cookies讲解]()   
-- [跳转--Session讲解]()    
+- [跳转--Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)    
+- [跳转--Cookies和Session讲解]()       
   
 > 请先看下面的一张图:  
 >> ![lo-1](https://github.com/KissMyLady/Django/blob/master/Img/Ajax_Session/lo-1.jpg)  
@@ -15,7 +14,7 @@
 2、找到后，调用views.py里面的函数, 函数判断，调用html文件， 此时我们来到登录页面    
 > 当login函数调用时，调用html文件    
 > 文件里面有相应表单，会收集信息，判断，然后返回给下一个函数login_check     
->> ![lo-2](https://github.com/KissMyLady/Django/blob/master/Img/Ajax_Session/lo-1.jpg)    
+>> ![lo-2](https://github.com/KissMyLady/Django/blob/master/Img/Ajax_Session/lo-2.jpg)    
 >>  
 >>> 语法都很简单, 理解整个过程后， 接下来我将介绍Ajax、Cookies和Session     
 
