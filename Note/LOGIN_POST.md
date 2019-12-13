@@ -4,8 +4,8 @@
 ## 登录案例  
 请注意, 这里的教程是至上而下的学习; 就是说, 先看实际生产代码, 然后在学习底层逻辑    
 - [跳转--Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)    
-- [跳转--Cookies和Session讲解]()       
-  
+- [跳转--Cookies和Session讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_SESSION.md)       
+
 > 请先看下面的一张图:  
 >> ![lo-1](https://github.com/KissMyLady/Django/blob/master/Img/Ajax_Session/lo-1.jpg)  
   
@@ -39,3 +39,7 @@
 * 第二步，学例子;    
 * 第三步，验证(重推)。  
 
+  ## 接下来  
+ - [返回Django主页](https://github.com/KissMyLady/Django/blob/master/README.md)  
+ - [Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)
+ - [Cookies和Session讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_SESSION.md)
