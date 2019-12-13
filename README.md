@@ -16,6 +16,7 @@ Django框架
 ## :floppy_disk: 登录实例  
  - [建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)  
  - [Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)
+ - [Cookies和Session讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_SESSION.md)   
 
 ## :wrench: templates  
 敬请期待
