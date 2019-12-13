@@ -14,7 +14,8 @@ Django框架
 - [Models-Manager管理类](https://github.com/KissMyLady/Django/blob/master/Note/Models_Manager.md)  
 
 ## :floppy_disk: 登录实例  
- - [如何建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)
+ - [如何建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)  
+ - [Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)
 
 ## :wrench: templates  
 敬请期待
