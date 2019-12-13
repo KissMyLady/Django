@@ -18,11 +18,11 @@
 >> ![lo-2](https://github.com/KissMyLady/Django/blob/master/Img/Ajax_Session/lo-1.jpg)    
 >>  
 >>> 语法都很简单, 理解整个过程后， 接下来我将介绍Ajax、Cookies和Session     
-  
+
 - [Ajax讲解]()     
 - [Cookies讲解]()    
 - [Session讲解]()  
-
+代码请跳跃到[最后一节Session]()      
 
 ## 关于学习的一点建议    
 光说不练假把式, 不用例子学编程那是在扯蛋    
