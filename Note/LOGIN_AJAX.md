@@ -25,7 +25,10 @@ Ajax讲解
 * 2、执行相应的视图函数，返回json内容    
 * 3、执行相应的回调函数。通过判断json内容，进行相应处理    
 
-
+## 接下来  
+ - [返回Django主页](https://github.com/KissMyLady/Django/blob/master/README.md)  
+ - [建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)  
+ - [Cookies和Session讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_SESSION.md)
 
 
 
