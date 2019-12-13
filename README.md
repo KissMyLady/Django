@@ -14,15 +14,15 @@ Django框架
 - [Models-Manager管理类](https://github.com/KissMyLady/Django/blob/master/Note/Models_Manager.md)  
 
 ## :floppy_disk: 登录实例  
+ - [如何建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)
+
+## :wrench: templates  
 敬请期待
 
-## :wrench:  cookie和session  
+## :bulb: Django功能  
 敬请期待
 
-## :bulb: templates  
-敬请期待
-
-## :watermelon: Django功能  
+## :watermelon:
 敬请期待
 
 ## 其他链接  
