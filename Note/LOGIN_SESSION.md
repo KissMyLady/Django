@@ -1,6 +1,8 @@
 Cookies和Session讲解  
 ====
-
+ - [返回Django主页](https://github.com/KissMyLady/Django/blob/master/README.md)  
+ - [建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)  
+ - [Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)
 
 
 ##  Cookises
@@ -219,4 +221,8 @@ base64 encode:  https://base64.supfree.net/
 </html>
 ```
 
+## 接下来  
+ - [返回Django主页](https://github.com/KissMyLady/Django/blob/master/README.md)  
+ - [建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)  
+ - [Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)
 
