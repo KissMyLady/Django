@@ -102,6 +102,7 @@ def get_session(request):
 # delete from django_session;
 # select * from django_session;
 
+'''
 +----------------------------------+--------------------------------------------------------------------------------------------------+----------------------------+
 | session_key                      | session_data                                                                                     | expire_date                |
 +----------------------------------+--------------------------------------------------------------------------------------------------+----------------------------+
@@ -114,6 +115,7 @@ ODVlYzkyZTM5OGQzNTNmZWE2OTA1Y2RkMDIxNjc0MjMzNTJiZTIzNDp7InVzZXJuYW1lIjoicm9vdCIs
 base64 encode:  https://base64.supfree.net/
 
 85ec92e398d353fea6905cdd02167423352be234:{"username":"root","age":100}
+'''
 ```
 
 ## template
