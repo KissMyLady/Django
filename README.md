@@ -18,13 +18,13 @@ Django框架
  - [Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)
  - [Cookies和Session讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_SESSION.md)   
 
-## :wrench: templates  
-敬请期待
-
-## :bulb: Django功能  
-敬请期待
+## :bulb: Django项目  
+ - [Django远程连接数据库](https://github.com/KissMyLady/Django/blob/master/Note/django_hight_items.md)  
 
 ## :watermelon:
+敬请期待
+
+## :wrench: templates  
 敬请期待
 
 ## 其他链接  
