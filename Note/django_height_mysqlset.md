@@ -9,8 +9,6 @@
 
 2. 数据库设计  
 数据库是为网页提供数据的模块, 因为Django中的模型设计, 在开始之初就需要设计好, 因此很重要  
-![mysql-1](https://github.com/KissMyLady/Django/blob/master/Img/mysql-1.jpg)  
-
 
 ## 数据库结构
 ![mysql-4](https://github.com/KissMyLady/Django/blob/master/Img/mysql-4.jpg)  
