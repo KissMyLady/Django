@@ -20,7 +20,7 @@ Django框架
 
 ## :bulb: Django项目  
  - [Django远程连接数据库](https://github.com/KissMyLady/Django/blob/master/Note/django_hight_items.md)  
-
+ - [项目规划与模型设计](https://github.com/KissMyLady/Django/blob/master/Note/django_height_mysqlset.md)   
 ## :watermelon:
 敬请期待
 
