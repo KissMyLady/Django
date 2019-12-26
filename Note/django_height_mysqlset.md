@@ -240,13 +240,13 @@ class Address(BaseModel):
 
 ## 注  意
 Django的坑点那是相当的多, 大家有问题最好能够看错误提示多思考思考, 然后再试着谷歌百度看看  
-![mysql-5](https://github.com/KissMyLady/Django/blob/master/Img/mysql-5.jpg)  
+![mysql-5](https://github.com/KissMyLady/Django/blob/master/Img/mysql-5.png)  
 
 这里使用的是`Django2.2.1`版本,  上面的代码的BUG我已经踩平了, 直接复制粘贴即可  
 
 
 ## 运行起来应该是这样  
-![mysql-6](https://github.com/KissMyLady/Django/blob/master/Img/mysql-6.jpg)  
+![mysql-6](https://github.com/KissMyLady/Django/blob/master/Img/mysql-6.png)  
 
 
 
