@@ -13,6 +13,7 @@ Django框架
 - [Models-M深入介绍](https://github.com/KissMyLady/Django/blob/master/Note/Models_deep_sty.md) 
 - [Models-数据库设置](https://github.com/KissMyLady/Django/blob/master/Note/Models_mysql.md)  
 - [Models-Manager管理类](https://github.com/KissMyLady/Django/blob/master/Note/Models_Manager.md)  
+- [Django的重定向](https://github.com/KissMyLady/Django/blob/master/Note/django_base_reload.md)   
 
 ## :floppy_disk: 登录实例  
  - [建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)  
