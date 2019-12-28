@@ -23,7 +23,7 @@ Django框架
 ## :bulb: Django项目  
  - [Django远程连接数据库](https://github.com/KissMyLady/Django/blob/master/Note/django_hight_items.md)  
  - [项目规划与模型设计](https://github.com/KissMyLady/Django/blob/master/Note/django_height_mysqlset.md)   
- - [APP集合包设置路径](https://github.com/KissMyLady/Django/blob/master/Note/django_height_package.md)  
+ - [APP集合包路径设置](https://github.com/KissMyLady/Django/blob/master/Note/django_height_package.md)  
  - [用户注册时的验证](https://github.com/KissMyLady/Django/blob/master/Note/django_height_userset.md)    
  
 ## :watermelon:
