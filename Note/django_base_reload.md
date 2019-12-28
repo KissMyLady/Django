@@ -3,7 +3,7 @@
 
 ## 图文说明      
 ![reload-1](https://github.com/KissMyLady/Django/blob/master/Img/reload-1.jpg)    
-```Pythno
+```Python
 from django.shortcuts import render
 from django.shortcuts import render, redirect
 from book_app.models import BookInfo, HeroInfo
