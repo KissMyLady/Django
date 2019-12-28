@@ -2,6 +2,7 @@
 =====
 
 ## 图文说明     
+感谢网友[萌新小灯笼](#)提供此图:  
 ![reload_principle](https://github.com/KissMyLady/Django/blob/master/Img/reload_principle-1.jpg)    
 ![reload-1](https://github.com/KissMyLady/Django/blob/master/Img/reload-1.jpg)    
 ```Python
