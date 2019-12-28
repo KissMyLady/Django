@@ -25,7 +25,7 @@ Django框架
  - [项目规划与模型设计](https://github.com/KissMyLady/Django/blob/master/Note/django_height_mysqlset.md)   
  - [APP集合包路径设置](https://github.com/KissMyLady/Django/blob/master/Note/django_height_package.md)  
  - [用户注册时的验证](https://github.com/KissMyLady/Django/blob/master/Note/django_height_userset.md)    
- - [注册页面函数封装](https://github.com/KissMyLady/Django/blob/master/Note/django_hgight_register.md)    
+ - [注册页面视图函数的封装](https://github.com/KissMyLady/Django/blob/master/Note/django_hgight_register.md)    
 ## :watermelon:
 敬请期待
 
