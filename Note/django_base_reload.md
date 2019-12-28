@@ -1,7 +1,8 @@
 重定向  
 =====
 
-## 图文说明      
+## 图文说明     
+![reload_principle](https://github.com/KissMyLady/Django/blob/master/Img/reload_principle-1.jpg)    
 ![reload-1](https://github.com/KissMyLady/Django/blob/master/Img/reload-1.jpg)    
 ```Python
 from django.shortcuts import render
