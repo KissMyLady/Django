@@ -30,10 +30,10 @@ Django框架
  - [Django中的邮件验证--和加密与解密](https://github.com/KissMyLady/Django/blob/master/Note/django_height_email.md)  
  - [Django异步](https://github.com/KissMyLady/Django/blob/master/Note/django_height_celery.md)  
  
-## :watermelon:
+## :watermelon:  
 敬请期待
 
-## :wrench: templates  
+## :wrench:  
 敬请期待
 
 ## 其他链接  
