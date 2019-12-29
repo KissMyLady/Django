@@ -92,10 +92,10 @@ send_mail(
 ```
 
 setting基本配置   
-说明: 这里的setting配置, 是要在views文件要导入的, 也可以直接在views里面添加此项配置  
+说明: 这里的setting配置, 要在views文件要导入, 也可以直接在views里面添加此项配置  
 
 views配置  
-```
+```Python
  else:
     user = User.objects.create_user(username, password, email)
     user.is_active = 0
