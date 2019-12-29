@@ -1,6 +1,7 @@
 邮箱注册验证  
 =====
-
+## 预览图  
+![esate-6](https://github.com/KissMyLady/Django/blob/master/Img/django_hight/esafe-6.jpg)  
 我们现在采用的数据传输方式: get请求   
 那么问题来了, get请求是明文传输, 这不安全    
 
