@@ -282,8 +282,7 @@ class TimedJSONWebSignatureSerializer(JSONWebSignatureSerializer):
 至此, 函数式邮箱验证就完成了  
 
 ## 第二种方法
-接下来讲解第二种方法: 类视图   
-[类视图](https://github.com/KissMyLady/Django/blob/master/Note/django_height_classviews.md)  
+接下来讲解第二种方法: [类视图](https://github.com/KissMyLady/Django/blob/master/Note/django_height_classviews.md)   
 ```
 class RegisterViews(View):
     def get(self, request):
@@ -329,7 +328,7 @@ class RegisterViews(View):
 ```Python
 from app_user.views import RegisterViews  
 urlpatterns = [
-    re_path(r'^login$',                LoginView.as_view()),
+    re_path(r'^login$', LoginView.as_view()),
 ]
 ```
 这里导入app_user下的views文件, 这个文件下的RegisterViews类  
@@ -370,7 +369,7 @@ import os, django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'daily_fresh.settings')
 django.setup()
 ``` 
-* 细节二: `@app_email.task`需要Celery中task装饰器装饰
+* 细节二: `@app_email.task`需要Celery中task装饰器装饰   
 [Celery知识引导-Tasks](https://blog.csdn.net/happyAnger6/article/details/51533321)    
 [如何使用@shared_task装饰器进行基于类的任务](https://www.thinbug.com/q/21233089)    
  
