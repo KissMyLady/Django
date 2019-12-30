@@ -30,6 +30,7 @@ Django框架
  - [Django中的邮件验证--和加密与解密](https://github.com/KissMyLady/Django/blob/master/Note/django_height_email.md)  
  - [Django异步](https://github.com/KissMyLady/Django/blob/master/Note/django_height_celery.md)  
  - [------以上总结------](https://github.com/KissMyLady/Django/blob/master/Note/django_height_signall.md)  
+ - [Redis Save Session](https://github.com/KissMyLady/Django/blob/master/Note/django_height_session.md)  
  
 ## :watermelon:  
 敬请期待
