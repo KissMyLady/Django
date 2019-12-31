@@ -14,8 +14,8 @@
 ![inherit-1](https://github.com/KissMyLady/Django/blob/master/Img/django_hight/inherit-1.jpg)   
 
 ## 继承使用的方法知识描述  
-```
 #### 父模板
+```Html
 {%block 名称%}  
   预留区域，可以编写默认内容，也可以没有默认内容
 {%endblock  名称%}
