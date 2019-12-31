@@ -35,6 +35,7 @@ Django框架
  - [Django-Inherit](https://github.com/KissMyLady/Django/blob/master/Note/django_height_inherit.md)  
  - [Django-Login第一种方法-函数装饰器](https://github.com/KissMyLady/Django/blob/master/Note/django_height_setlogin.md)  
  - [Django-Login第二种方法-类视图](https://github.com/KissMyLady/Django/blob/master/Note/django_height_lv2login.md)  
+ - [Django-Login小改动-欢迎界面](https://github.com/KissMyLady/Django/blob/master/Note/django_height_userlogin.md)    
   
 ## :watermelon:  
 敬请期待
