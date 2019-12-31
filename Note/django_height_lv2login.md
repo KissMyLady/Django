@@ -18,7 +18,7 @@ Mixin
 >　Django的基于类的视图提供了许多功能，但是你可能只想使用其中的一部分。例如，你想编写一个视图，它渲染模板来响应HTTP，但是你用不了TemplateView；或者你只需要对POST 请求渲染一个模板，而GET 请求做一些其它的事情。 虽然你可以直接使用TemplateResponse，但是这将导致重复的代码。  
 > 由于这些原因，Django 提供许多Mixin，它们提供更细致的功能。例如，渲染模板封装在TemplateResponseMixin 中。Django 参考手册包含所有Mixin 的完整文档。    
 
-![mxin-1]()  
+![mxin-1](https://github.com/KissMyLady/Django/blob/master/Img/django_hight/mixin-1.jpg)  
 
 在定义视图的时候, 我们继承Mixin类就可以完成登录的判断了  
 
