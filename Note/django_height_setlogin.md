@@ -1,9 +1,10 @@
 登录装饰器配合使用  
 ====
+ 
+问  题:     
+通常我们有时候会使用百度, 有些常见生活问题可以在贴吧里找到, 但是现在百度加强了验证, 需要下载它自家的app或者是登录它的账号,  我们没有登录就不能进去它的页面查看信息    
 
-问题: 通常我们有时候会使用百度, 有些常见生活问题可以在贴吧里找到, 但是现在百度加强了验证  
-需要下载它自家的app或者是登录它的账号,  我们没有登录就不能进去它的页面查看信息  
-显然, 我们自己做的网站也想要拥有这个功能, Django可不可以做到呢?  当然  
+显然, 我们自己做的网站也想要拥有这个功能, Django可不可以做到呢?  当然可以    
 
 
 ## 访问核心网站需要登录  
@@ -18,9 +19,8 @@ urlpatterns = [
     re_path(r'^order',              UserOrderViews.as_view()),
     re_path(r'^address',            UserAddressViews.as_view()),]
 ```
-这里访问`user`, `order`, `address`等数据敏感页面时, 必须用 户登录了才能看到  
-怎么做到呢?  
-
+这里访问`user`, `order`, `address`等数据敏感页面时, 必须用 户登录了才能看到   
+* 怎么做到呢?  
 Django体面提供了自带的验证装饰器, 我们拿过来用就可以了     
 [Django官方文档1.8详细介绍](https://yiyibooks.cn/xx/django_182/topics/auth/index.html)    
 尽管这里运行的是2.2版本Django, 但很多地方还是相似的, 而且这个中文翻译的官方文档很全, 所以引用了它   
@@ -47,7 +47,7 @@ from django.contrib.auth.decorators import login_required
 def my_view(request):
     ...
 ```
-同过上述知识描述, 我们可以发现, 这个装饰器是针对函数实现的  
+通过上述知识描述, 我们可以发现, 这个装饰器是针对函数实现的  
 现在看一下我们的代码:  
 ```Python
 class UserInfoViews(View):
@@ -62,12 +62,11 @@ class UserAddressViews(View):
     ....
     return render(request, 'user_center_site.html', {'page': 'address'})
 ```
-问题来了:  
-我们这里的转发对象都是class, Django自带的验证装饰器验证的是函数, 该怎么办?   
-
-我们需要想个方法, 一定让这个class执行前, 判断用户是否登录
-
-使用方法:  
+那么问题来了:  
+* 我们这里的转发对象都是class, Django自带的验证装饰器验证的是函数, 该怎么办?     
+我们需要想个方法, 一定让这个class执行前, 判断用户是否登录  
+  
+使用方法:    
 ```Python
 from django.contrib.auth.decorators import login_required
 
