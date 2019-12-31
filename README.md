@@ -33,6 +33,7 @@ Django框架
  - [Redis Save Session](https://github.com/KissMyLady/Django/blob/master/Note/django_height_session.md)  
  - [Cookies setting](https://github.com/KissMyLady/Django/blob/master/Note/django_height_cokkies.md)  
  - [Django-Inherit](https://github.com/KissMyLady/Django/blob/master/Note/django_height_inherit.md)  
+ - [Django-Login_Setting](https://github.com/KissMyLady/Django/blob/master/Note/django_height_setlogin.md)  
  
 ## :watermelon:  
 敬请期待
