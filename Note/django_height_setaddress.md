@@ -140,6 +140,8 @@ Address.objects.create(user=user,
 ```Python
 return redirect('address')
 ```
-
+![setaddr-1](https://github.com/KissMyLady/Django/blob/master/Img/django_hight/setaddr-1.jpg)  
+数据库查表:    
+![setaddr-2](https://github.com/KissMyLady/Django/blob/master/Img/django_hight/setaddr-2.jpg)  
 
 
