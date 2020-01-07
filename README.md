@@ -36,7 +36,7 @@
  - [Django-Login小改动-欢迎界面](https://github.com/KissMyLady/Django/blob/master/Note/django_height_userlogin.md)    
  - [Django-Address提交](https://github.com/KissMyLady/Django/blob/master/Note/django_height_setaddress.md) 
   
-## :watermelon:  
+## :watermelon:  Django部署
 - [Nginx服务器](https://github.com/KissMyLady/Django/blob/master/Note/nginx.md)  　
 
 ## :wrench:  
