@@ -29,10 +29,12 @@ virtualenv=/home/zhuying/.virtualenvs/today
 ```
 请注意, 最后的实际进程数: 4+2= 6个   
 
-#### uwsgi的启动和停止:   
-启动:uwsgi –-ini 配置文件路径 例如:  uwsgi –-ini uwsgi.ini
-停止:uwsgi --stop uwsgi.pid路径 例如:uwsgi –-stop uwsgi.pid
-![ScreenShot-00275]()   
+#### uwsgi的启动和停止:  
+```
+启动:uwsgi –-ini 配置文件路径 例如:  uwsgi –-ini uwsgi.ini   
+停止:uwsgi --stop uwsgi.pid路径 例如:uwsgi –-stop uwsgi.pid   
+```
+![ScreenShot-00275](https://github.com/KissMyLady/Django/blob/master/Img/ScreenShot-0027jpg)   
 
 这里会发现我们的图片和css加载不了, 我们需要一个服务器来提供这些后续文件支持   
 
