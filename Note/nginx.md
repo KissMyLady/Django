@@ -140,7 +140,7 @@ Nginx是异步框架的网页服务器，也可以用作反向代理、负载平
 > 语言: C   
 > 开发者: NGINX, Inc   
 
-### [2. 特 点:](https://zh.wikipedia.org/wiki/Nginx)  
+# [2. 特 点:](https://zh.wikipedia.org/wiki/Nginx)  
 Nginx可以部署在网络上使用FastCGI脚本、SCGI处理程序、WSGI应用服务器或Phusion Passenger模块的动态HTTP内容，并可作为软件负载均衡器   
 
 Nginx使用异步事件驱动的方法来处理请求。Nginx的模块化事件驱动架构, 可以在高负载下提供更可预测的性能。  
