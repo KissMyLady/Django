@@ -19,7 +19,8 @@ Django框架
  - [建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)  
  - [Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)
  - [Cookies和Session讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_SESSION.md)   
-
+ - [Redis集群搭建](https://github.com/KissMyLady/Tools/blob/master/note/redis_goup.md)     
+  
 ## :bulb: Django项目  
  - [Django远程连接数据库](https://github.com/KissMyLady/Django/blob/master/Note/django_hight_items.md)  
  - [项目规划与模型设计](https://github.com/KissMyLady/Django/blob/master/Note/django_height_mysqlset.md)   
