@@ -1,6 +1,3 @@
-Django框架 
-=====
-
 ## :computer:Django初阶--快速搭建一个网站  
 - [Django-知识引导说明](https://github.com/KissMyLady/Django/blob/master/Note/django_base_know.md)    
 - [Django-初始化](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating.md)  
