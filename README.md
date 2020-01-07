@@ -37,7 +37,7 @@
  - [Django-Address提交](https://github.com/KissMyLady/Django/blob/master/Note/django_height_setaddress.md) 
   
 ## :watermelon:  
-敬请期待
+- [Nginx服务器](https://github.com/KissMyLady/Django/blob/master/Note/nginx.md)  　
 
 ## :wrench:  
 敬请期待
