@@ -121,7 +121,7 @@ def application(environ, start_response):
 ![ScreenShot-00251](https://github.com/KissMyLady/WEB_Server/blob/master/Img/ScreenShot-00251.jpg)   
 
 服务的功能就是转发, Django作为框架就是调用各种资源返回给服务器, 返回的这个接口就是威士忌`WSGI`    
-![Snip20161117_8]()   
+![Snip20161117_8](https://github.com/KissMyLady/Django/blob/master/Img/Snip20161117_8.jpg)   
 但是uwsgi作为服务器我们的页面都不能完整显示, 该换个办法了   
 
 我们需要在uwsgi前面再加入一个Nginx服务器   
