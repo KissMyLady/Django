@@ -29,6 +29,12 @@ sudo vim .bashrc, 添加下面两句
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 ```
+注意, 在服务器ubuntu版本中, 需要制定python版本, 而且路径不一样, 需要关注     
+```Python
+125 VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+126 export WORKON_HOME=$HOME/.virtualenvs
+127 source ~/.local/bin/virtualenvwrapper.sh
+```
 使用source .bashrc命令刷新生效  
 
 ### 4、 创建Python虚拟环境  
