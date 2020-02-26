@@ -31,9 +31,11 @@ source /usr/local/bin/virtualenvwrapper.sh
 ```
 注意, 在服务器ubuntu版本中, 需要制定python版本, 而且路径不一样, 需要关注     
 ```Python
-125 VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-126 export WORKON_HOME=$HOME/.envirtualenvs
-127 source ~/.local/bin/virtualenvwrapper.sh
+# https://www.cnblogs.com/linga/p/11588223.html
+125 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+126 export WORKON_HOME=$HOME/.virtualenvs
+127 export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
+128 source ~/.local/bin/virtualenvwrapper.sh
 ```
 使用source .bashrc命令刷新生效  
 
