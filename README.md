@@ -3,7 +3,7 @@
 - [Django-初始化](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating.md)  
 - [Django-M模块介绍](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating2.md)   
 - [Django-admin管理](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating3.md)
-- [Django-视图, 路由, 视图](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating4.md)  
+- [Django-视图, 模板](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating4.md)  
 - [Django-完整流程](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating5.md)
 - [Django-管理员界面](https://github.com/KissMyLady/Django/blob/master/Note/b_admin.md)
 
