@@ -6,6 +6,7 @@
 - [Django-视图, 模板](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating4.md)  
 - [Django-完整流程](https://github.com/KissMyLady/Django/blob/master/Note/django_base_operating5.md)
 - [Django-管理员界面](https://github.com/KissMyLady/Django/blob/master/Note/b_admin.md)
+- [Django-HTML导入css文件](https://github.com/KissMyLady/Django/blob/master/Note/b_import_css.md)  
 
 ## :pencil2: 模块介绍   
 - [Models-M深入介绍](https://github.com/KissMyLady/Django/blob/master/Note/Models_deep_sty.md) 
