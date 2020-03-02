@@ -84,7 +84,20 @@ http://127.0.0.1:8000/
 
 网页显示效果如下图，视图被成功执行了。
 
-
+## Re_path匹配  
+严格匹配开头与结尾的url规则   
+```Python
+from django.contrib import admin
+from django.urls import path, re_path
+from app_bookinfo import views
+urlpatterns = [
+    re_path(r'test_response',  views.test_response),
+    re_path(r'^go1$', views.go1),
+    re_path(r'^go2$', views.go2),
+    re_path(r'^', views.index)]
+``` 
+方式: `^ + $`   
+此时若在浏览器输入`go1`与`go2`, 可以看到是可以严格匹配规则的   
 
 ## views.py文件  
 定义调哪个函数  
@@ -115,7 +128,7 @@ def detial(request ,id):
     heros = book.heroinfo_set.all()
     return render(request ,'booktest/detial.html' ,{'book' :book,'heros':heros})
 ```
-路由urls.py   
+urls.py   
 ====
 ```Python
 from booktest import views
