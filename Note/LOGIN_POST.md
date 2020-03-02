@@ -2,7 +2,7 @@
 ====
 
 ## 登录案例  
-请注意, 这里的教程是至上而下的学习; 就是说, 先看实际生产代码, 然后在学习底层逻辑    
+先看实际生产代码, 然后在学习底层逻辑    
 - [跳转--Ajax讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_AJAX.md)    
 - [跳转--Cookies和Session讲解](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_SESSION.md)       
 
