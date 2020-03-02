@@ -16,28 +16,8 @@
 > 文件里面有相应表单，会收集信息，判断，然后返回给下一个函数login_check     
 >> ![lo-2](https://github.com/KissMyLady/Django/blob/master/Img/Ajax_Session/lo-2.jpg)    
 >>  
->>> 语法都很简单, 理解整个过程后， 接下来我将介绍Ajax、Cookies和Session     
+>>> 语法都很简单, 理解整个过程后， 接下来介绍Ajax、Cookies和Session     
 
-- [Ajax讲解]()     
-- [Cookies讲解]()    
-- [Session讲解]()  
-代码请跳跃到[最后一节Session]()      
-
-## 关于学习的一点建议    
-光说不练假把式, 不用例子学编程那是在扯蛋    
-什么是学习？   
-> 学习就是从有限的例子中找出问题和答案之间的规律的一个过程     
- 
-为什么学习?    
-> 学习是所有生命的支持    
- 
-学进去的标准-费曼标准:    
-> "如果你没有办法用简单的语言表达你所学的知识，你就没有真正学会它"  
-  
-如何学？    
-* 第一步，明确什么是问题，什么是答案;    
-* 第二步，学例子;    
-* 第三步，验证(重推)。  
 
   ## 接下来  
  - [返回Django主页](https://github.com/KissMyLady/Django/blob/master/README.md)  
