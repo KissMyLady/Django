@@ -1,14 +1,6 @@
 Models-M深入介绍  
 ====
-
-##  先打通道路--从上往下学  
-主体上都是先打通道路，再添砖加瓦，  
-我的教程建议是，从上往下学习。  
-这里，我先把主要最终实现代码方式展示出来，  
-稍微有点网络编程基础，同时看完了[上一章节](https://github.com/KissMyLady/Django/blob/master/README.md)，相信你看代码能直接看懂  
-然后读者再根据Django提供的文档进行数据增删改查的修补工作   
-#### 最后，在这章末尾展示，如何达到这个最终状态的过程    
-
+ 
 ## 实现代码  
 ![Manager1](https://github.com/KissMyLady/Django/blob/master/Img/manager.jpg)  
 ```Python
