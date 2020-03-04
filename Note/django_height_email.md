@@ -48,6 +48,20 @@ safe_obj.loads(response)
 ```
 ![esafe-2](https://github.com/KissMyLady/Django/blob/master/Img/django_hight/esafe-2.jpg)  
 
+### Python中的用法
+```Python
+from itsdangerous import  TimedJSONWebSignatureSerializer as safe
+safe_obj = safe('This is my secretkey', 360)
+infomations = {'confirm': 1, 'nums':66, 'images':"肖像", 'money':"milenr" }
+
+# 加密
+response = safe_obj.dumps(infomations)
+print(response)
+
+# 解密
+re_load = safe_obj.loads(response)
+print(re_load)
+```
 
 ## 在Django中应用  
 ```Python
