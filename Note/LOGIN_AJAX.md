@@ -135,6 +135,113 @@ def ajax_handle(request):
     return JsonResponse({'res': 1})
 ```
 
+## 稍微升级版本
+
+### html文件
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax刷新登录</title>
+{% load static %}
+<script>type='text/javascript src="{% static 'js/jquery-1.12.4.min.js' %}"</script>
+{% load staticfiles %}        <!--需要添加load staticfiles-->
+<link rel="stylesheet" href="{% static 'css/new_2.css' %}">    <!--引入使用的css文件-->
+<link rel="script" href="{% static 'js/jquery-1.12.4.min.js' %}">
+<script src="/static/js/jquery-1.12.4.min.js"> </script>
+
+
+    <script>
+        $(function(){
+            $('#but').click(function () {
+                var username = $('#username').val()
+                var password = $('#password').val()
+
+                $.ajax({
+                    'url':' /ajax_check',
+                    'type': 'post',
+                    'data': {'username':username, 'password':password},
+                    'dataType':'json'
+
+                }).success(function (data) {
+
+                    if (data.res == 0){
+                        $('#errmsg').show().html('用户名或密码错误')
+                    }
+                    else{
+                        location.href = '/index'
+                    }
+                })
+            })
+        })
+    </script>
+<style>
+    #errmsg{
+        display: none;
+        color:   red;
+    }
+</style>
+</head>
+<body>
+
+<h1><a href="/">返回主页</a><br></h1>
+<h1>Ajax登录实例</h1>
+
+<ul>
+    <li><p>登录页面</p></li>
+    <li>1. 构造登录页面</li>
+    <li>2. Post请求, 获取数据, 比对</li>
+    <li>3. 返回相应结果页面</li>
+</ul>
+
+<H3>登录框</H3>
+
+<form method="post" action="/ajax_check">
+    {% csrf_token %}
+    用户名: <input type="text" name="username" id="user_name"><br>
+    密  码: <input type="text" name="password" id="pass_word"><br>
+    <input type="submit" id="but" value="登录">
+</form>
+<ul>
+    <li>1. ajax返回的是json, 返回的是后台, 不要重定向/li>
+</ul>
+<p>登录底部</p>
+<div>
+    <div>
+        <span><a href="/login_check">第五位面壁者</a></span>
+        <span>|</span>
+        <span><a href="/login_check">联系上帝</a></span>
+        <span>|</span>
+        <span><a href="/login_check">招聘友军</a></span>
+        <span>|</span>
+        <span><a href="/login_check">快递链接</a></span>
+    </div>
+    <h6>CopyRight © 4020 第八宇宙超量子科技集成有限国家 All Rights Reserved</h6>
+    <h6>电话：AAAA0000-888888    三体ICP备5648428号</h6>
+	</div>
+</body>
+</html>
+```
+
+
+
+## 视图函数
+
+```python
+def ajax_login(request):
+    return render(request, 'ajax_login.html')
+
+def ajax_check(request):
+    u = request.POST.get('username')
+    p = request.POST.get('password')
+    print(">"*10, u, p)
+    if u == '123' and p == '123':
+        return JsonResponse({'res': 1})
+    else:
+        return JsonResponse({'res': 0})
+```
 
 ## Ajax的知识描述
 
