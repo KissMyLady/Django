@@ -13,6 +13,7 @@
 - [Models-数据库设置](https://github.com/KissMyLady/Django/blob/master/Note/Models_mysql.md)  
 - [Models-Manager管理类](https://github.com/KissMyLady/Django/blob/master/Note/Models_Manager.md)  
 - [Django的重定向](https://github.com/KissMyLady/Django/blob/master/Note/django_base_reload.md)   
+- [方向解析](https://github.com/KissMyLady/Django/blob/master/Note/url_reverse.md) 
 
 ## :floppy_disk: 登录实例  
  - [建立自己的网站](https://github.com/KissMyLady/Django/blob/master/Note/LOGIN_POST.md)  
